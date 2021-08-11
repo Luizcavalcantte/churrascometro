@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+.container {
+  border-radius: 2px;
+  background-color: yellow;
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+}
+input {
+  border-radius: 5px;
+  display: block;
+  color: black;
+  margin: auto;
+  margin-bottom: 10px;
+  height: 30px;
+}
+.results {
+  font-weight: bolder;
+}
+
+.titulo {
+  font-family: "Courier New", Courier, monospace;
+}
