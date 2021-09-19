@@ -4,21 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Testes</title>
+    <title>Churrascômetro</title>
     <link href="./style.css" rel="stylesheet" />
   </head>
   <body>
     <div class="container">
-      <h1 class="titulo">CHURRASCÔMETRO</h1>
-      <input id="adultos" type="tel" placeholder="Adultos" />
-      <input id="criancas" type="tel" placeholder="Crianças" />
-      <input id="duracao" type="tel" placeholder="Duração" />
-      <input type="button" onclick="calcular()" value="Calcular" />
+      <div>
+        <h1 class="titulo">CHURRASCÔMETRO</h1>
+        <input id="adultos" type="number" placeholder="Adultos" />
+        <input id="criancas" type="number" placeholder="Crianças" />
+        <input id="duracao" type="number" placeholder="Duração" />
+        <input type="button" onclick="calcular()" value="Calcular" />
+      </div>
 
       <div class="results">
         <p id="1"></p>
-        <p id="2"></p>
         <p id="3"></p>
+        <p id="2"></p>
       </div>
     </div>
     <script src="./script.js"></script>
